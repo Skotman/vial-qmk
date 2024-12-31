@@ -1,14 +1,18 @@
 {
-    "name": "Crkbd",
+    "name": "Crkbd v2",
     "vendorId": "0x4653",
-    "productId": "0x0001",
+    "productId": "0x0002",
     "matrix": {
         "rows": 8,
         "cols": 6
     },
-    "lighting": {
-        "extends": "qmk_rgblight"
-    },
+    "keycodes": [
+        "qmk_lighting"
+    ],
+    "menus": [
+            "qmk_rgb_matrix"
+        ],
+
     "layouts": {
         "keymap": [
             [
